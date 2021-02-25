@@ -19,9 +19,9 @@ export function Profile() {
         <div className={styles.profileContactContainer}>
           <span>My socials</span>
           <div className={styles.profileSocials}>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-            <a href="#">Artstation</a>
+            <a href="https://www.instagram.com/takaoart/">Instagram</a>
+            <a href="https://twitter.com/takao_art">Twitter</a>
+            <a href="https://www.artstation.com/takaoart">Artstation</a>
           </div>
           <span>Contact email</span>
           <div className={styles.profileEmail}>
