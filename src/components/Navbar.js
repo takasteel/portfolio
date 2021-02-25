@@ -6,7 +6,7 @@ export function Navbar() {
   return(
     <nav className={styles.navContainer}>
       <div className={styles.navLogoContainer}>
-        <a href="#" className={styles.navLogo}>
+        <a href="/" className={styles.navLogo}>
           <span>Takao</span>
           <span>Digital illustrator</span>
         </a>

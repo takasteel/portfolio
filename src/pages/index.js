@@ -1,7 +1,7 @@
 import { Navbar } from '../components/Navbar';
 import { Profile } from '../components/Profile';
 
-import Head from 'next/Head';
+import Head from 'next/head';
 
 import styles from '../styles/pages/Home.module.css'
 
