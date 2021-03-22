@@ -1,0 +1,24 @@
+.showcaseContainer {
+  display: flex;
+  justify-content: center;
+  width: 1305px;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.artwork {
+  position: relative;
+  height: 420px;
+  width: 420px;
+}
+
+@media(max-width: 720px) {
+  .showcaseContainer {
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: flex-start; */
+  }
+}

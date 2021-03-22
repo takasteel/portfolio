@@ -4,7 +4,7 @@ export function Profile() {
   return (
     <div className={styles.profileContainer}>
       <div className={styles.profileImageContainer}>
-        <img src="profile.jpg" alt="Profile"/>
+        <img src="/images/mafura_big.webp" alt="Profile"/>
       </div>
       <div className={styles.profileDescriptionContainer}>
         <h2>Takao</h2>
@@ -18,11 +18,11 @@ export function Profile() {
         </div>
         <div className={styles.profileContactContainer}>
           <span>My socials</span>
-          <div className={styles.profileSocials}>
+          <nav className={styles.profileSocials}>
             <a href="https://www.instagram.com/takaoart/">Instagram</a>
             <a href="https://twitter.com/takao_art">Twitter</a>
             <a href="https://www.artstation.com/takaoart">Artstation</a>
-          </div>
+          </nav>
           <span>Contact email</span>
           <div className={styles.profileEmail}>
             <span>designtakao@gmail.com</span>

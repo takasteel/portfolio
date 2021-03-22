@@ -6,10 +6,12 @@ export function Navbar() {
   return(
     <nav className={styles.navContainer}>
       <div className={styles.navLogoContainer}>
-        <a href="/" className={styles.navLogo}>
-          <span>Takao</span>
-          <span>Digital illustrator</span>
-        </a>
+        <Link href="/" >
+          <a className={styles.navLogo}>
+            <span>Takao</span>
+            <span>Digital illustrator</span>
+          </a>
+        </Link>
       </div>
       <div className={styles.navLinksContainer}>
         <ul className={styles.navLinks}>

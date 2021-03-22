@@ -3,7 +3,7 @@
   --text: #f6f6f6;
   --bar: #131313;
   --gray: #b9b9b9;
-  --highlight: #d89127;
+  --highlight: #FFE11D;
 }
 
 @media(max-width: 1080px) {
@@ -43,5 +43,9 @@ button {
 
 a {
   color: inherit;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
   text-decoration: none;
 }

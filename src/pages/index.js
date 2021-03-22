@@ -1,5 +1,6 @@
 import { Navbar } from '../components/Navbar';
 import { Profile } from '../components/Profile';
+import { Footer } from '../components/Footer';
 
 import Head from 'next/head';
 
@@ -16,6 +17,7 @@ export default function Home() {
         <section>
           <Profile />
         </section>
+        <Footer />
       </div>
     </div>
   )

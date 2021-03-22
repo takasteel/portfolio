@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100vw;
+  max-width: 100vw;
   min-height: 12vh;
   background: var(--bar);
 }
@@ -44,7 +44,8 @@
   font-weight: 400;
   list-style-type:none;
   margin-right: 1.5rem;
-  transition: color 0.2s;
+  transition: color 0.3s;
+  cursor: pointer;
 }
 
 .navLinks > li:last-child {

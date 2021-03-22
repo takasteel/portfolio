@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-
-  max-width: 980px;
+  align-items: center;
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .profileImageContainer {
@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: column;
   width: 380px;
+  height: 600px;
 
   border: 1px solid rgb(212, 212, 212);
   padding: 0rem 2rem 0rem 3rem;
@@ -47,15 +48,15 @@
 
 .profileContactContainer > span {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
 .profileSocials {
   display: flex;
   flex-direction: row;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
   justify-content: space-between;
   margin-bottom: 2rem;
 }
@@ -64,12 +65,14 @@
   transition: color 0.2s;
 }
 
-.profileSocials a:hover {
+.profileSocials a:hover,
+.profileSocials a:focus {
   color: var(--highlight);
+  text-decoration: underline;
 }
 
 .profileEmail {
-  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 @media(max-width: 1080px) {
@@ -80,10 +83,19 @@
 
   .profileDescriptionContainer {
     width: 600px;
+    height: auto;
   }
 
+  .profileContactContainer > span {
+    font-size: 1.5rem;
+  }
+
+  .profileSocials {
+    font-size: 1.2rem;
+  }
   .profileEmail{
     margin-bottom: 2rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -104,15 +116,19 @@
     margin-top: 2.5rem;
   }
 
-  .profileSocials {
-    font-size: 0.8rem;
-  }
-
-  .profileEmail {
-    font-size: 0.8rem;
-  }
-
   .profileDescriptionContainer {
     width: 300px;
+  }
+
+  .profileContactContainer > span {
+    font-size: 1.2rem;
+  }
+
+  .profileSocials {
+    font-size: 0.9rem;
+  }
+
+  .profileEmail{
+    font-size: 0.9rem;
   }
 }
