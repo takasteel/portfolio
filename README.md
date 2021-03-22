@@ -2,4 +2,4 @@
 
 I made this personal portfolio using nextjs and deployed in [Vercel.com](https://vercel.com/)
 
-Check the demo [here](portfolio-takasteel.vercel.app).
+Check the demo [here](https://portfolio-takasteel.vercel.app).
