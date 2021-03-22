@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container h1 {
+  margin-bottom: 2rem;
+
+}
+
+.container input:focus,
+.container textarea:focus,
+.container button:focus {
+  outline: 0;
+  border-color: var(--highlight);
+}
+
+.container button {
+  width: 100%;
+  height: 2rem;
+  margin-top: 1rem;
+}
+
+.container button:hover {
+  background: var(--highlight);
+}
+
+.container button:focus {
+  box-shadow: 0 0 0 2px var(--highlight);
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  width: 980px
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfo input {
+  margin-bottom: 1rem;
+  width: 260px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;  
+  margin-left: 4rem;
+  width: 100%;
+}
+
+.message textarea {
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
+@media(max-width: 1080px) {
+  .container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .formContainer {
+    flex-direction: column;
+    width: 600px
+  }
+  .userInfo input {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .message {
+    margin-left: 0;
+    height: 200px;
+  }
+}
+
+@media(max-width: 720px) {
+  .formContainer {
+    flex-direction: column;
+    width: 300px
+  }
+  .userInfo input {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .message {
+    margin-left: 0;
+    height: 200px;
+  }
+}
