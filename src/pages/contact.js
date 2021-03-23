@@ -14,7 +14,7 @@ export default function Contact() {
       <meta property="og:title" content="Takao - Contact" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://portfolio-snowy-mu.vercel.app/" />
-      <meta property="og:image:url" content="https://portfolio-snowy-mu.vercel.app/preview.jpg" />
+      <meta property="og:image:url" content="https://portfolio-snowy-mu.vercel.app/images/preview.jpg" />
       <meta property="og:description" content="Hello! I'm a freelancer digital illustrator based in Brazil." />
         <title>Takao | Contact</title>
       </Head>
