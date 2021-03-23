@@ -14,7 +14,7 @@ export default function Home() {
       <meta property="og:title" content="Takao - Digital Illustrator" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://portfolio-snowy-mu.vercel.app/" />
-      <meta property="og:image:url" content="https://portfolio-snowy-mu.vercel.app/mafura.webp" />
+      <meta property="og:image:url" content="https://portfolio-snowy-mu.vercel.app/preview.jpg" />
       <meta property="og:description" content="Hello! I'm a freelancer digital illustrator based in Brazil." />
         <title>Takao | About</title>
       </Head>
