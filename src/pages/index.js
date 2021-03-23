@@ -10,6 +10,12 @@ export default function Home() {
   return (
     <div>
       <Head>
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+      <meta property="og:title" content="Takao - Digital Illustrator" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://portfolio-snowy-mu.vercel.app/" />
+      <meta property="og:image:url" content="https://portfolio-snowy-mu.vercel.app/mafura.webp" />
+      <meta property="og:description" content="Hello! I'm a freelancer digital illustrator based in Brazil." />
         <title>Takao | About</title>
       </Head>
       <div className={styles.container}>

@@ -10,7 +10,13 @@ export default function Comission() {
   return (
     <div>
       <Head>
-        <title>Takao | About</title>
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+      <meta property="og:title" content="Takao - Comission" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://portfolio-snowy-mu.vercel.app/" />
+      <meta property="og:image:url" content="https://portfolio-snowy-mu.vercel.app/mafura.webp" />
+      <meta property="og:description" content="Hello! I'm a freelancer digital illustrator based in Brazil." />
+        <title>Takao | Comission</title>
       </Head>
       <div className={styles.container}>
         <Navbar />
