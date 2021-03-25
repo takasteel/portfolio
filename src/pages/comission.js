@@ -14,7 +14,7 @@ export default function Comission() {
       <meta property="og:title" content="Takao - Comission" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://portfolio-snowy-mu.vercel.app/" />
-      <meta property="og:image:url" content="https://portfolio-snowy-mu.vercel.app/images/preview.jpg" />
+      <meta property="og:image" content="https://portfolio-snowy-mu.vercel.app/images/preview.jpg" />
       <meta property="og:description" content="Hello! I'm a freelancer digital illustrator based in Brazil." />
         <title>Takao | Comission</title>
       </Head>
